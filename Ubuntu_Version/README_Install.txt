@@ -3,20 +3,18 @@ To use this program in Linux with python 2.7.6, perform the following steps:
     https://www.tensorflow.org/install/install_linux
 
 2.  Each time you enter a new console, initiate tensorflow using one of the following commands:
-$ source ~/tensorflow/bin/activate      # if you use bash, sh, ksh, or zsh
-$ source ~/tensorflow/bin/activate.csh  # if you use csh or tcsh
-
-you can end the tensorflow session by entering:
-$ deactivate
+source ~/tensorflow/bin/activate      # if you use bash, sh, ksh, or zsh
+source ~/tensorflow/bin/activate.csh  # if you use csh or tcsh
 
 3.  Install any required packages:
-$ sudo pip install easygui, pygame, pick, subprocess
+sudo pip install easygui, pygame, pick, subprocess
 
 4.  You should now be able to run the program.  Running for the first time may take a while, and
 there may be a long delay and/or unusual output the first time you take a picture.
 
 Navigate to the Ubuntu_Version directory, and enter the command:
-$ python run.py
+python run.py
+
 You will be given the option to pick from available cameras, the first one generally works.
 A window with a live feed from the camera should pop up.
 When you have an item you want to identify in the camera's view, press enter or right-click in the window.

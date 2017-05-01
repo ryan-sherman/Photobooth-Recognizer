@@ -1,6 +1,6 @@
 To use this program in Linux with python 2.7.6, perform the following steps:
 1.  Install tensorflow with virtualenv to ~/tensorflow, detailed instructions at
-    https://www..org/install/install_linux
+    https://www.tensorflow.org/install/install_linux
 
 2.  Each time you enter a new console, initiate tensorflow using one of the following commands:
 $ source ~/tensorflow/bin/activate      # if you use bash, sh, ksh, or zsh

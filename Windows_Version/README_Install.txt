@@ -2,23 +2,18 @@ To use this program in Windows with python 3.5, perform the following steps:
 1.  Install tensorflow with Anaconda to ~/tensorflow, detailed instructions at
 	https://www.tensorflow.org/install/install_windows
 	be sure that when you create the Anaconda environment you specify the python
-	version that is currently compatible with Tensorflow.  The exact command as I
-	write is:
+	version that is currently compatible with Tensorflow.  The exact command as is:
 	> conda create -n tensorflow python=3.5
 
-2.  Each time you enter a new console, initiate the tensorflow virtual environment
+2.  Each time you start a new console/cmd window, initiate the tensorflow virtual environment
 using the command:
-> activate tensorflow
-
-you can end the tensorflow session by entering:
-$ deactivate
+activate tensorflow
 
 3.  Install any required packages:
-> pip install easygui
-> pip install pygame
-> pip install pick
-> pip install subprocess
-
+pip install easygui
+pip install pygame
+pip install pick
+pip install subprocess
 
 if you have a 32 bit operating system:
 pip install curses-2.2-cp35-none-win32.whl
